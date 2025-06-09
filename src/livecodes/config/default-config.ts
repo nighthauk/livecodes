@@ -24,7 +24,7 @@ export const defaultConfig: Config = {
   readonly: false,
   allowLangChange: true,
   activeEditor: 'script',
-  languages: undefined,
+  languages: ['js', 'ts'],
   markup: {
     language: 'html',
     content: '',
