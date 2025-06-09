@@ -23,7 +23,7 @@ export const defaultConfig: Config = {
   welcome: true,
   readonly: false,
   allowLangChange: true,
-  activeEditor: undefined,
+  activeEditor: 'script',
   languages: undefined,
   markup: {
     language: 'html',
@@ -35,7 +35,7 @@ export const defaultConfig: Config = {
   },
   script: {
     language: 'javascript',
-    content: '',
+    content: '// Start writing your JavaScript here\nconsole.log("Hello, JavaScript Training!");',
   },
   stylesheets: [],
   scripts: [],
@@ -51,6 +51,9 @@ export const defaultConfig: Config = {
     active: '',
     status: '',
   },
+  prarams: {
+    console: 'full'
+  }
   zoom: 1,
   processors: [],
   customSettings: {},
