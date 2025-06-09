@@ -47,13 +47,10 @@ export const defaultConfig: Config = {
     content: '',
   },
   tools: {
-    enabled: 'all',
-    active: '',
-    status: '',
+    enabled: ['console'],
+    active: 'console',
+    status: 'full',
   },
-  prarams: {
-    console: 'full'
-  }
   zoom: 1,
   processors: [],
   customSettings: {},
