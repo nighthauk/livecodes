@@ -49,6 +49,7 @@ const prepareDir = async () => {
     copyFile('src/favicon.ico', 'favicon.ico'),
     copyFile('src/404.html', '404.html'),
     copyFile('src/index.html', 'index.html'),
+    copyFile('src/CNAME', 'CNAME'),
     copyFile('src/livecodes/html/app-base.html', 'app.html'),
   ]);
 };
@@ -264,7 +265,7 @@ const workersBuild = () =>
       fs.writeFile(
         path.resolve('build/livecodes', filename),
         filename.endsWith('.map') ? content : iife(content),
-        () => {},
+        () => { },
       );
     }
   });
