@@ -24,4 +24,4 @@ Called when the playground first loads.
 
 ## Defined in
 
-[models.ts:225](https://github.com/nighthauk/livecodes/blob/b79319381f53288f77758b241ca6a1aaddf3419c/src/sdk/models.ts#L225)
+[models.ts:225](https://github.com/nighthauk/livecodes/blob/e2696c10915506f7fdb7b1a4d62966e70b52aa07/src/sdk/models.ts#L225)
